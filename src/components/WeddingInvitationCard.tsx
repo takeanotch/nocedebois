@@ -1193,14 +1193,14 @@ export const WeddingInvitationCard = ({ qrData }: { qrData: QRData }) => {
         {/* Signature */}
                   <p className="text-gray-600 my-5 text-lg">
                     
-                Un code QR s'affichera ci-dessous 24 heures avant le jour du mariage . Vous allez le présenter à l'entrée de la salle de réception.
+                Ce code QR est unique pour chaque invitation, cela permet de n'est pas utiliser une invitation deux fois de suite. 
                     
                     </p>
 
 
         {/* QR Code Section */}
         <div  className="mt-9 mb-8 relative">
-          <div className={`mx-auto p-2 blur-xl border-4 rounded-xl w-max relative`}>
+          <div className={`mx-auto p-2 blur-x border-4 rounded-xl w-max relative`}>
             <QRCodeSVG
               value={JSON.stringify(qrContent)}
               size={180}
