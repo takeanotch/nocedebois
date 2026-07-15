@@ -1020,7 +1020,7 @@ export const WeddingInvitationCard = ({ qrData }: { qrData: QRData }) => {
           <div className="date-item bg-white/10 backdrop-blur-sm rounded-2xl p-4 mx-4 shadow-sm border border-white/20">
             <div className="flex items-center justify-center gap-2 mb-1">
               <FiClock className="text-amber-300" />
-              <p className="text-xl text-amber-300 font-bold drop-shadow">Samedi 19 Juillet 2026</p>
+              <p className="text-xl text-amber-300 font-bold drop-shadow">Dimanche 19 Juillet 2026</p>
             </div>
               <p className="text-xl text-white font-bold drop-shadow">A 17 heures</p>
             <div className="flex items-center justify-center gap-2 mb-2">
