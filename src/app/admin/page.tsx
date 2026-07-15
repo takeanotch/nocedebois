@@ -1150,11 +1150,11 @@ export default function AdminLinkGenerator() {
   }
 
   const shareLink = (url: string, name: string) => {
-    const SUPPORT_PHONE = "+243976022715";
-    const SUPPORT_PHONE2 = "+243991157894";
+    const SUPPORT_PHONE = "+243973322414";
+  
     if (navigator.share) {
       navigator.share({
-        text: `Bonjour ${name}, Veuillez cliquer sur le lien ci après pour accéder à votre invitation pour le mariage du Couple Kitenge. \n\nQuestions ? Contactez-nous au : ${SUPPORT_PHONE} \n ${SUPPORT_PHONE2} \n\n Lien :`,
+        text: `Bonjour ${name}, Veuillez cliquer sur le lien ci-après pour accéder à votre invitation. \n\Contacts : ${SUPPORT_PHONE} \n\n Lien :`,
         url: url,
       }).catch(() => {
         copyLink(url);

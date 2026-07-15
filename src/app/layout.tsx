@@ -57,12 +57,9 @@
 // }
 
 import { AuthProvider } from '@/context/AuthContext'
+import './globals.css'
 import ForceLightMode from '@/components/ForceLightMode'
 import { Metadata } from 'next';
-
-declare module '*.css';
-
-import './globals.css'
 
 export const metadata: Metadata = {
   title: "Le Couple Kitenge - Noces de Bois",
@@ -70,7 +67,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Le Couple Kitenge - Noces de Bois 🪵",
     description: "À l'occasion de nos noces de bois, nous célébrons avec gratitude cinq années d'amour, de confiance et de fidélité.",
-    url: "https://moninvitation.vercel.app",
+    url: "https://votreinvitations.vercel.app",
     type: "website",
     images: [
       {

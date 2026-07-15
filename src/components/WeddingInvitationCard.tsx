@@ -928,16 +928,16 @@ export const WeddingInvitationCard = ({ qrData }: { qrData: QRData }) => {
           
           {/* Participant Name */}
           <div ref={titleRef}>
-            {qrData.isCouple && (
+            {/* {qrData.isCouple && (
               <h1 className="text-lg font-light text-white mb-2">
-                — Couple —
+               — Invité(es) —
               </h1>
             )}
             {!qrData.isCouple && (
               <h1 className="text-lg font-light text-white mb-2">
-                — Invité(e) —
+                — Invité(es) —
               </h1>
-            )}
+            )} */}
             <h1 className="text-3xl font-bold text-white  drop-shadow-lg">
               {qrData.participants[0].name}
             </h1>

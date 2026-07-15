@@ -6,7 +6,7 @@ import { Heart, Loader2 } from "lucide-react";
 
 export default function WeddingLoader() {
   return (
-    <div className="relative w-full h-screen bg-stone-50 flex flex-col items-center justify-center text-center overflow-hidden">
+    <div className="relative w-full h-screen bg-white flex flex-col items-center justify-center text-center overflow-hidden">
       {/* Fleur en coin bas-gauche */}
       <Image
         src="/assets/fl.png"
